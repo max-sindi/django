@@ -1,14 +1,14 @@
 from django.contrib.auth.models import User, Group
 from rest_framework import serializers
-import todosbackend.models as Todos
+from .models import Todo
 
-
-class TodoSerializer(serializers.Serializer):
+class TodoSerializer(serializers.ModelSerializer):
     title = serializers.CharField(max_length=20)
     body = serializers.CharField(max_length=100)
 
     def create(self, validated_data):
-        return Todos.Todo.objects.create(**validated_data)
+        return Todo.objects.create(**validated_data)
+    """
 
     def update(self, instance, validated_data):
         instance.title = validated_data.get('title', instance.title)
@@ -16,6 +16,11 @@ class TodoSerializer(serializers.Serializer):
 
         instance.save()
         return instance
+    """
+
+    class Meta:
+        model = Todo
+        fields = ('title', 'body')
 
 
 class UserSerializer(serializers.HyperlinkedModelSerializer):

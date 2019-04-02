@@ -1,10 +1,11 @@
-from django.shortcuts import render
-
-# Create your views here.
 from django.contrib.auth.models import User, Group
 from rest_framework import viewsets
-from todos.todosbackend.serializers import UserSerializer, GroupSerializer
+from todos.todosbackend.serializers import UserSerializer, GroupSerializer, TodoSerializer
+from .models import Todo
 
+class TodoView(viewsets.ModelViewSet):
+    queryset = Todo.objects.all()
+    serializer_class = TodoSerializer
 
 class UserViewSet(viewsets.ModelViewSet):
     """
