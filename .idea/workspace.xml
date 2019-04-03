@@ -5,10 +5,8 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/todos/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/todos/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todos/todosbackend/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/todos/todosbackend/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/todos/todosbackend/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/todos/todosbackend/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/todos/todosbackend/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/todos/todosbackend/serializers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todos/todosbackend/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/todos/todosbackend/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/todos/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/todos/urls.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -67,17 +65,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/todos/todosbackend/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+            <state relative-caret-position="180">
+              <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/todos/todosbackend/serializers.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="700">
-              <caret line="35" selection-start-line="35" selection-end-line="35" />
+            <state relative-caret-position="520">
+              <caret line="26" column="15" lean-forward="true" selection-start-line="26" selection-start-column="15" selection-end-line="26" selection-end-column="15" />
               <folding>
                 <element signature="e#0#50#0" expanded="true" />
               </folding>
@@ -85,11 +83,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="das://aa5af584-7005-4f47-a959-c2627e30e766/schema/main/table/todosbackend_todo">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/todos/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="42" column="1" lean-forward="true" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -97,8 +95,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/todos/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+            <state relative-caret-position="240">
+              <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
               <folding>
                 <element signature="e#0#37#0" expanded="true" />
               </folding>
@@ -109,11 +107,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/todos/todosbackend/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="22" column="36" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
+            <state relative-caret-position="120">
+              <caret line="6" column="24" lean-forward="true" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
               <folding>
                 <element signature="e#0#50#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/env/lib/python3.6/site-packages/django/db/models/manager.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3120">
+              <caret line="161" column="23" lean-forward="true" selection-start-line="161" selection-start-column="23" selection-end-line="161" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -127,6 +134,8 @@
       <find>SITE_</find>
       <find>all</find>
       <find>_all</find>
+      <find>MIDDLEWARE_CLASSES</find>
+      <find>def all</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/todos</dir>
@@ -141,18 +150,19 @@
         <option value="$PROJECT_DIR$/env/lib/python3.6/site-packages/django/apps/__init__.py" />
         <option value="$PROJECT_DIR$/todos/todosbackend/apps.py" />
         <option value="$PROJECT_DIR$/todos/todosbackend/admin.py" />
+        <option value="$PROJECT_DIR$/todos/todosbackend/views.py" />
         <option value="$PROJECT_DIR$/todos/settings.py" />
+        <option value="$PROJECT_DIR$/todos/todosbackend/serializers.py" />
         <option value="$PROJECT_DIR$/todos/todosbackend/models.py" />
         <option value="$PROJECT_DIR$/todos/urls.py" />
-        <option value="$PROJECT_DIR$/todos/todosbackend/views.py" />
-        <option value="$PROJECT_DIR$/todos/todosbackend/serializers.py" />
+        <option value="$PROJECT_DIR$/env/lib/python3.6/site-packages/django/db/models/manager.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="27" />
+    <option name="y" value="199" />
     <option name="width" value="1296" />
-    <option name="height" value="1408" />
+    <option name="height" value="1236" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -160,7 +170,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -183,6 +192,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -191,6 +201,7 @@
     <property name="database.console.LAST_STATE" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -268,23 +279,24 @@
       <updated>1554127188519</updated>
       <workItem from="1554127191970" duration="6673000" />
       <workItem from="1554191352491" duration="14783000" />
-      <workItem from="1554214068413" duration="1166000" />
+      <workItem from="1554214068413" duration="2166000" />
+      <workItem from="1554281349882" duration="54000" />
+      <workItem from="1554281416207" duration="9379000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22622000" />
+    <option name="totallyTimeSpent" value="33055000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="27" width="1296" height="1408" extended-state="0" />
+    <frame x="0" y="199" width="1296" height="1236" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.2456" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.2536" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Database Console" weight="0.32994527" />
       <window_info anchor="bottom" id="Database Changes" order="0" weight="0.32915717" />
-      <window_info anchor="bottom" id="Terminal" order="1" weight="0.22986709" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="1" visible="true" weight="0.26558265" />
       <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.5008" side_tool="true" weight="0.3995309" />
       <window_info anchor="bottom" id="Version Control" order="3" weight="0.32997763" />
       <window_info anchor="bottom" id="Python Console" order="4" weight="0.32838154" />
@@ -296,6 +308,7 @@
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="12" />
+      <window_info anchor="bottom" id="Database Console" order="13" weight="0.32994527" />
       <window_info anchor="right" id="Database" order="0" weight="0.3296" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="SciView" order="2" />
@@ -375,24 +388,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/todos/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="40" column="19" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/env/lib/python3.6/site-packages/django/db/models/query.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1961">
           <caret line="185" column="6" selection-start-line="185" selection-start-column="6" selection-end-line="185" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/env/lib/python3.6/site-packages/django/db/models/manager.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="164" column="46" selection-start-line="164" selection-start-column="46" selection-end-line="164" selection-end-column="46" />
         </state>
       </provider>
     </entry>
@@ -406,47 +405,82 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/todos/todosbackend/models.py">
+    <entry file="das://aa5af584-7005-4f47-a959-c2627e30e766/schema/main/table/todosbackend_todo">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/env/lib/python3.6/site-packages/django/db/models/base.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+        <state relative-caret-position="311">
+          <caret line="566" column="8" selection-start-line="566" selection-start-column="8" selection-end-line="566" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/env/lib/python3.6/site-packages/django/template/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="68" column="46" lean-forward="true" selection-start-line="68" selection-start-column="46" selection-end-line="68" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/env/lib/python3.6/site-packages/django/db/models/fields/related.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="784" column="12" selection-start-line="784" selection-start-column="12" selection-end-line="784" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/todos/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="42" column="1" lean-forward="true" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/todos/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+        <state relative-caret-position="240">
+          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
           <folding>
             <element signature="e#0#37#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/todos/todosbackend/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/todos/todosbackend/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="22" column="36" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
+        <state relative-caret-position="120">
+          <caret line="6" column="24" lean-forward="true" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
           <folding>
             <element signature="e#0#50#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/env/lib/python3.6/site-packages/django/db/models/manager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3120">
+          <caret line="161" column="23" lean-forward="true" selection-start-line="161" selection-start-column="23" selection-end-line="161" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/todos/todosbackend/serializers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        <state relative-caret-position="520">
+          <caret line="26" column="15" lean-forward="true" selection-start-line="26" selection-start-column="15" selection-end-line="26" selection-end-column="15" />
           <folding>
             <element signature="e#0#50#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://aa5af584-7005-4f47-a959-c2627e30e766/schema/main/table/todosbackend_todo">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
         </state>
       </provider>
     </entry>

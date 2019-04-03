@@ -20,7 +20,7 @@ class TodoSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Todo
-        fields = ('title', 'body')
+        fields = ('id', 'title', 'body', 'isDone')
 
 
 class UserSerializer(serializers.HyperlinkedModelSerializer):
